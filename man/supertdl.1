@@ -1,0 +1,43 @@
+.TH SUPERTDL 1 "June 2025" "v1.0" "User Commands"
+.SH NAME
+supertdl \- a simple command-line to-do list manager
+.SH SYNOPSIS
+.B supertdl
+[\-a "task"] [\-l] [\-\-clear]
+.SH DESCRIPTION
+.B supertdl
+is a minimal to-do list command line utility that allows you to add, list, and clear tasks stored in a markdown file.
+
+.SH OPTIONS
+.TP
+.BR \-a " \"task\""
+Add a new task to the to-do list.
+
+.TP
+.B \-l
+List all tasks currently in the to-do list.
+
+.TP
+.B \-\-clear
+Clear the entire to-do list.
+
+.SH EXAMPLES
+.TP
+Add a task:
+.B supertdl \-a "Buy milk"
+
+.TP
+List tasks:
+.B supertdl \-l
+
+.TP
+Clear tasks:
+.B supertdl \-\-clear
+
+.SH AUTHOR
+Written by You (or your name here).
+
+.SH SEE ALSO
+.BR bash (1), 
+.BR grep (1), 
+.BR sed (1)
